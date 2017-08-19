@@ -26,6 +26,11 @@ public class PrimeNumber {
 		System.out.print("Enter a number: ");
 		int n = in.nextInt();
 		PrimeNumber obj = new PrimeNumber();
+		
+		//String[] a = new String[3];
+		//String a = new String("");
+		
+		System.out.println(args.toString());
 		boolean prime = obj.isPrime(n);
 		if (prime)
 			System.out.println("Yes, " + n + " is a prime number");
